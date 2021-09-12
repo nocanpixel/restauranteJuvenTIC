@@ -147,7 +147,7 @@ h1.primaryText {
     width: 10em;
     -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
-    margin-bottom: 4em;
+    margin-bottom: 4.5em;
 }
 
 .secondSection {
