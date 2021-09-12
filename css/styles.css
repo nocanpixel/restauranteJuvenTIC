@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 
 :root {
     --cl-primary: #fff;
@@ -10,6 +12,7 @@
     --cl-background: rgb(238, 238, 238);
     --ft-logo-font: 'Yanone Kaffeesatz', sans-serif;
     --ft-main: 'Roboto', sans-serif;
+    --ft-poppins:'Poppins', sans-serif;
 }
 
 
@@ -171,12 +174,48 @@ h1.primaryText {
     width: 100%;
     height: 100vh;
 }
+/* menu */
 .thirdSection {
-    background-color: #4d416e;
+    background-color: #FCFCFC;
     width: 100%;
-    height: 100vh;
+    text-align: center;
+}
+.title{
+    font-size: 40px;
+    font-family: var(--ft-poppins);
+    font-weight: bolder;
+    border-bottom: 1px solid #eaeded;
+}
+.container-cards{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+padding-bottom: 5px;
 }
 
+.container-cards img{
+width: 100%;
+height: 200px;
+    }
+.container-cards h5{
+        text-align: center;
+        }
+
+.btn-primary{
+    background-color: var(--cl-tertiary);
+    font-weight: bold;
+    border-color: var(--cl-tertiary);
+    transition: .5s ease-out;
+}
+.btn-primary:hover{
+    background-color: var(--cl-tertiary);
+    border-color: var(--cl-tertiary);
+    box-shadow:  5px 5px 5px rgb(255, 165, 113);
+    
+}
+
+/* end menu */
 .fourthSection { 
     background-color: #3a2552;
     width: 100%;
