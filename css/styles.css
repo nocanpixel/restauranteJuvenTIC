@@ -6,18 +6,23 @@
     --cl-primary: #fff;
     --cl-primary-shadow: rgb(238, 238, 238);
     --cl-secondary: rgba(24, 24, 24, 0.8);
-    --cl-tertiary: rgb(255, 115, 0);
+    --cl-tertiary: rgb(255, 94, 0);
     --cl-background: rgb(238, 238, 238);
     --ft-logo-font: 'Yanone Kaffeesatz', sans-serif;
     --ft-main: 'Roboto', sans-serif;
 }
+
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: 0;
     font-family: var(--ft-main);
 }
 .main {
-    background-color: var(--cl-background);
+    background-color: var(--cl-secondary);
     width: 100%;
     height: auto;
 }
@@ -30,6 +35,7 @@ body {
     height: 70px;
     background-color: var(--cl-secondary);
     position: fixed;
+    z-index: 1;
 }
 
 span.logo {
@@ -37,6 +43,11 @@ span.logo {
     font-family: var(--ft-logo-font);
     font-size: 3em;
     cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.and{
+    color: var(--cl-tertiary);
 }
 
 .bigS {
@@ -84,24 +95,28 @@ ul a:hover {
 }
 
 .firstSection {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("foto2@2x.png");
+/*     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("foto2@2x.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 120em 100%;
+    background-size: 120em 100%; */
     width: 100%;
     height: 100vh;
 }
 
+.d-block{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
 .logoSal {
     width: 20em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .firstContent {
-    padding-top: 16em;
     text-align: center;
 }
 
@@ -113,19 +128,57 @@ h1.primaryText {
     text-shadow: 2px 2px black;
 }
 
+.descuento {
+    color: var(--cl-tertiary);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.birthday {
+    width: 20em;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    margin-bottom: 2em;
+}
+
+.eventos {
+    width: 10em;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    margin-bottom: 4em;
+}
+
 .secondSection {
-    background-color: red;
+    background-color: #d395d0;
     width: 100%;
     height: 100vh;
 }
 .thirdSection {
-    background-color: blue;
+    background-color: #4d416e;
     width: 100%;
     height: 100vh;
 }
 
 .fourthSection { 
-    background-color: black;
+    background-color: #3a2552;
     width: 100%;
     height: 100vh;
+}
+
+.example {
+    color: var(--cl-primary);
+    padding: 2em;
+    font-weight: bolder;
+
+}
+
+
+.carousel-indicators .active {
+    background-color: var(--cl-tertiary);
+}
+
+.carousel-caption {
+    
 }
