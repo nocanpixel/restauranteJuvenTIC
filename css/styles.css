@@ -26,7 +26,7 @@ body {
     position: relative;
 }
 .main {
-    background-color: var(--cl-secondary);
+    background-color: var(--cl-primary);
     width: 100%;
     height: auto;
 }
@@ -224,7 +224,6 @@ height: 200px;
 }
 
 .fifthSection {
-    background-color: lightcoral;
     width: 100%;
     height: 100vh;
 }
