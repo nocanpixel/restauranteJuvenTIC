@@ -96,6 +96,7 @@ ul li a.active {
 .list-group-item {
     color: var(--cl-primary);
     background-color: transparent;
+    border: none;
 }
 .list-group-item.active {
     background-color: transparent;
@@ -222,6 +223,12 @@ height: 200px;
     height: 100vh;
 }
 
+.fifthSection {
+    background-color: lightcoral;
+    width: 100%;
+    height: 100vh;
+}
+
 .example {
     color: var(--cl-primary);
     padding: 2em;
@@ -232,8 +239,4 @@ height: 200px;
 
 .carousel-indicators .active {
     background-color: var(--cl-tertiary);
-}
-
-.carousel-caption {
-    
 }
