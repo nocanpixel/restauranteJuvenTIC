@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- BOOTSTRAP CDNJ -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     
     <!-- LOCAL STYLES -->
     <link rel="stylesheet" href="css/styles.css">
@@ -14,11 +15,129 @@
 </head>
 <body>
     <div class="main">
-        
+        <nav class="list-group navbars" id="list-example">
+            <div class="navContainer">
+                <div class="navbarContent">
+                    <a href="#1" style="text-decoration: none;">
+                        <span class="logo">
+                            sal<span class="and">&</span>Salsa 
+                        </span>
+                    </a>
+                    <ul>
+                        <li><a href="#list-item-1" style="text-decoration: none;" class="list-group-item list-group-item-action">Inicio</a></li>
+                        <li><a href="#list-item-2" style="text-decoration: none;" class="list-group-item list-group-item-action">Nosotros</a></li>
+                        <li><a href="#list-item-3" style="text-decoration: none;" class="list-group-item list-group-item-action">Menu</a></li>
+                        <li><a href="#list-item-4" style="text-decoration: none;" class="list-group-item list-group-item-action">Servicios</a></li>
+                        <li><a href="#list-item-5" style="text-decoration: none;" class="list-group-item list-group-item-action">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div class="firstSection" id="list-item-1">
+            <div class="firstContent">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img loading="lazy" class="d-block" src="public/foto2@2x.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <img loading="lazy" src="public/logo@2x.png" alt="sal&Salsa logo" class="logoSal">
+                      <h1 class="primaryText">
+                          Sabores que <span class="bigS">exaltan</span> tus sentidos
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img loading="lazy" class="d-block" src="public/foto1@2x.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <img loading="lazy" src="public/eventos.png" alt="" class="eventos">
+                          <h1 class="primaryText">
+                            Organizamos tu evento !
+                          </h1>
+                          <p class="secondaryText">te ofrecemos un lugar único y con encanto donde celebrar tu cumpleaños, tu aniversario o tu fiesta privada, con toda clase de detalles, a tu medida.</p>
+                        </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img loading="lazy" class="d-block mx-auto" src="public/foto5@2x.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <img loading="lazy" src="public/birthday.png" alt="" class="birthday">
+                          <h1 class="primaryText">
+                            Estás cumpliendo años?
+                          </h1>
+                          <p class="thirdText">
+                            Si vienes a nuestro restaurante en el día de tu cumpleaños ,<br>
+                            tendras un
+                            <span class="descuento">50% de descuento*</span>
+                          </p>
+                        </div> 
+                  </div>
+                </div>
+                <button style="z-index: 0;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button style="z-index: 0;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+        <div class="secondSection" id="list-item-2">
+            <h1 class="example">SECTION 2</h1>
+        </div>
+        <div class="thirdSection position-relative" id="list-item-3">
+            <h2 class="title">Menu</h2>
+
+          <div class="container-cards" id="containerId">
+          
+
+            
+          </div>
+          <div id="modal">
+               <!-- Modal -->
+ <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h2 class="p" id="body"></h2>
+        <img src="" class="card-img-top"  id="img" alt="">
+      </div>
+      <div class="modal-footer">
+        <a href="#list-item-5" style="text-decoration: none; background-color: rgb(255, 169, 130);" class="list-group-item list-group-item-action">Contacto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div> 
+          
+        </div>
+        <div class="secondSection" id="list-item-4">
+          <h1 class="example">SECTION 4</h1>
+        </div>
+        <div class="fourthSection" id="list-item-5">
+            <h1 class="example">SECTION 5</h1>
+        </div>
+      </div>
     </div>
 
 
     <!-- BOOTSTRAP CDNJS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="sans.js"></script>
+<script type="text/javascript" src="js/menu.json"></script>
+<script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>

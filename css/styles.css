@@ -1,13 +1,239 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
 :root {
-    --cl-primary: orange; 
+    --cl-primary: #fff;
+    --cl-primary-shadow: rgb(238, 238, 238);
+    --cl-secondary: rgba(24, 24, 24, 0.8);
+    --cl-tertiary: rgb(255, 94, 0);
+    --cl-background: rgb(238, 238, 238);
+    --ft-logo-font: 'Yanone Kaffeesatz', sans-serif;
+    --ft-main: 'Roboto', sans-serif;
+    --ft-poppins:'Poppins', sans-serif;
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    font-family: var(--ft-main);
+    position: relative;
+}
 .main {
-    background-color: var(--cl-primary);
+    background-color: var(--cl-secondary);
+    width: 100%;
+    height: auto;
+}
+.navContainer {
+    margin: auto;
+    width: 90%;
+}
+.navbars {
+    width: 100%;
+    height: 70px;
+    background-color: var(--cl-secondary);
+    position: fixed;
+    z-index: 1;
+}
+
+span.logo {
+    color: var(--cl-primary);
+    font-family: var(--ft-logo-font);
+    font-size: 3em;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.and{
+    color: var(--cl-tertiary);
+}
+
+.bigS {
+    text-align: center;
+    transform: skew(20deg);
+    letter-spacing: 5px;
+    padding: 5px 20px 0px 20px;
+    background-color: var(--cl-tertiary);
+
+}
+
+.navbarContent {
+    margin-top: 5px;
+}
+
+ul {
+    float: right;
+    padding-top: 0.8em;
+    padding-left: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--cl-primary);
+    font-size: 1em;
+    font-weight: 300;
+    padding: 1.2em 0.1em;
+    background-color: none;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    color: var(--cl-primary);
+    padding-right: 5px;
+}
+
+ul li a.active {
+    font-weight: 900;
+}
+
+.list-group-item {
+    color: var(--cl-primary);
+    background-color: transparent;
+}
+.list-group-item.active {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid var(--cl-tertiary);
+    padding-bottom: 1em;
+}
+
+.list-group-item:hover {
+    background-color: transparent;
+    color: var(--cl-primary-shadow);
+    border-bottom: 4px solid var(--cl-tertiary);
+    padding-bottom: 1em;
+}
+
+
+
+.firstSection {
+/*     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("foto2@2x.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 120em 100%; */
     width: 100%;
     height: 100vh;
+}
+
+.d-block{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.logoSal {
+    width: 20em;
+
+}
+
+.firstContent {
+    text-align: center;
+}
+
+h1.primaryText {
+    color: var(--cl-primary);
+    margin-top: 1.4em;
+    font-family: var(--ft-logo-font);
+    font-size: 5em;
+    text-shadow: 2px 2px var(--cl-secondary);
+}
+
+.descuento {
+    color: var(--cl-tertiary);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.birthday {
+    width: 20em;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    margin-bottom: 2em;
+}
+
+.eventos {
+    width: 10em;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    margin-bottom: 4.5em;
+}
+
+.secondSection {
+    background-color: #d395d0;
+    width: 100%;
+    height: 100vh;
+}
+/* menu */
+.thirdSection {
+    background-color: #FCFCFC;
+    width: 100%;
+    text-align: center;
+}
+.title{
+    font-size: 40px;
+    font-family: var(--ft-poppins);
+    font-weight: bolder;
+    border-bottom: 1px solid #eaeded;
+}
+.container-cards{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+padding-bottom: 5px;
+}
+
+.container-cards img{
+width: 100%;
+height: 200px;
+    }
+.container-cards h5{
+        text-align: center;
+        }
+
+.btn-primary{
+    background-color: var(--cl-tertiary);
+    font-weight: bold;
+    border-color: var(--cl-tertiary);
+    transition: .5s ease-out;
+}
+.btn-primary:hover{
+    background-color: var(--cl-tertiary);
+    border-color: var(--cl-tertiary);
+    box-shadow:  5px 5px 5px rgb(255, 165, 113);
+    
+}
+
+/* end menu */
+.fourthSection { 
+    background-color: #3a2552;
+    width: 100%;
+    height: 100vh;
+}
+
+.example {
+    color: var(--cl-primary);
+    padding: 2em;
+    font-weight: bolder;
+
+}
+
+
+.carousel-indicators .active {
+    background-color: var(--cl-tertiary);
+}
+
+.carousel-caption {
+    
 }
