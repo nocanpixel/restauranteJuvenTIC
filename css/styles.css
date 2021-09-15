@@ -6,9 +6,9 @@
 
 :root {
     --cl-primary: #fff;
-    --cl-primary-shadow: rgb(238, 238, 238);
+    --cl-primary-shadow: rgb(119, 119, 119);
     --cl-secondary: rgba(24, 24, 24, 0.8);
-    --cl-tertiary: rgb(255, 94, 0);
+    --cl-tertiary: rgb(255, 103, 8);
     --cl-background: rgb(238, 238, 238);
     --ft-logo-font: 'Yanone Kaffeesatz', sans-serif;
     --ft-main: 'Roboto', sans-serif;
@@ -25,6 +25,12 @@ body {
     font-family: var(--ft-main);
     position: relative;
 }
+
+.highLights {
+    color: var(--cl-tertiary);
+    font-weight: bold;
+}
+
 .main {
     background-color: var(--cl-primary);
     width: 100%;
@@ -40,6 +46,7 @@ body {
     background-color: var(--cl-secondary);
     position: fixed;
     z-index: 1;
+    border-radius: 0;
 }
 
 span.logo {
@@ -177,9 +184,23 @@ h1.primaryText {
 }
 /* menu */
 .thirdSection {
-    background-color: #FCFCFC;
+    background-color: var(--cl-primary);
     width: 100%;
     text-align: center;
+}
+
+.header-menu {
+    height: 17em;
+    margin-bottom: 1em; 
+
+}
+.header-menu h1{
+    margin-top: 0.4em;
+    font-weight: bold;
+}
+.icon-menu {
+    width: 5em;
+    margin-top: 7em;
 }
 .title{
     font-size: 40px;
@@ -187,21 +208,13 @@ h1.primaryText {
     font-weight: bolder;
     border-bottom: 1px solid #eaeded;
 }
-.container-cards{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 10px;
-padding-bottom: 5px;
-}
 
-.container-cards img{
-width: 100%;
-height: 200px;
-    }
-.container-cards h5{
-        text-align: center;
-        }
+.card img{
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
 
 .btn-primary{
     background-color: var(--cl-tertiary);
@@ -214,6 +227,12 @@ height: 200px;
     border-color: var(--cl-tertiary);
     box-shadow:  5px 5px 5px rgb(255, 165, 113);
     
+}
+
+.modal-description { 
+    text-align: justify;
+    margin-top: 1.5em;
+    color: var(--cl-secondary);
 }
 
 /* end menu */

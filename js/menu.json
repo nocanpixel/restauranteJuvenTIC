@@ -1,65 +1,77 @@
-var menus=[
+const menus=[
 
       {
         "titulo": "Pollo",
         "body": "Some quick example tesxt to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu1@2x.png"
+        "img": "public/menu1@2x.png",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
        
       },
       {
         "titulo": "Legumbres",
         "body": "Some quick exampsle text to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu2@2x.png"
+        "img": "public/menu2@2x.png",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Papas",
         "body": "Some quisck example text to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu3@2x.png"
+        "img": "public/menu3@2x.png",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Carne especial",
         "body": "Some quicsk example text to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu4@2x.png"
+        "img": "public/menu4@2x.png",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Camaron",
         "body": "Some qsuick example text to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu5@2x.png"
+        "img": "public/menu5@2x.png",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "ensalada",
         "body": "Some quick example text to bsuild on the card title and make up the bulk of the card's content",
-        "img": "public/menu6.jpg"
+        "img": "public/menu6.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "pan saludable",
         "body": "Some quick example text to build on thes card title and make up the bulk of the card's content",
-        "img": "public/menu7.jpg"
+        "img": "public/menu7.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Hamburguesa saludable",
         "body": "Some quick example text to bsuild son the card title and make up the bulk of the card's content",
-        "img": "public/menu8.jpg"
+        "img": "public/menu8.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Hamburguesa combos",
         "body": "Some quick example text to builds on the card title and make up the bulk of the card's content",
-        "img": "public/menu9.jpg"
+        "img": "public/menu9.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Chorizos",
         "body": "Some quick example text to busild on the card title and make up the bulk of the card's content",
-        "img": "public/menu10.jpg"
+        "img": "public/menu10.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Carne a la parrilla",
         "body": "Some quick example tesxt to build on the card title and make up the bulk of the card's content",
-        "img": "public/menu11.jpg"
+        "img": "public/menu11.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       },
       {
         "titulo": "Hamburguesas",
         "body": "Some quick example text to build on the cards title and make up the bulk of the card's content",
-        "img": "public/menu12.jpg"
+        "img": "public/menu12.jpg",
+        "textos": "Lorem ipsum dolor error eaque pariatur provident voluptatem perspiciatis, dolorum, et nihil facilis molestiae corrupti voluptate soluta tenetur officiis quaerat. Quis, rem voluptas"
       }
     
 
