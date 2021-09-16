@@ -179,15 +179,41 @@ h1.primaryText {
 }
 
 .secondSection {
-    background-color: #d395d0;
+    background-color: white;
     width: 100%;
     height: 100vh;
-    background-image: url('cofeshop.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    text-align: center;
+
 }
+
+.secondSectionContainer {
+    width: 90%;
+    margin: auto;
+}
+
+.header-nosotros {
+    height: 17em;
+    margin-bottom: 4em;
+}
+.header-nosotros h1{
+    font-size: 4em;
+    padding-top: 1.5em;
+    font-weight: bolder;
+}
+
+.header-nosotros p {
+    color: var(--cl-primary-shadow);
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.underline{
+    width: 10em;
+    height: 3px;
+    background-color: var(--cl-tertiary);
+    margin: auto;
+}
+
 /* menu */
 .thirdSection {
     background-color: var(--cl-primary);
@@ -197,12 +223,13 @@ h1.primaryText {
 
 .header-menu {
     height: 17em;
-    margin-bottom: 3em; 
+    margin-bottom: 1em; 
 
 }
 .header-menu h1{
-    padding-top: 5em;
-    font-weight: bold;
+    padding-top: 5.4em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
 }
 .icon-menu {
     width: 3em;
@@ -210,7 +237,7 @@ h1.primaryText {
     display: none;
 }
 .menu-borders {
-    width: 35%;
+    width: 23em;
     height: 100px;
     object-fit: cover;
     object-position: 0px 20px;
@@ -219,7 +246,20 @@ h1.primaryText {
     left: 0;
     right: 0;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 4.2em;
+    position: absolute;
+}
+
+.menu-borders-2 {
+    width: 23em;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px -7em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     position: absolute;
 }
 .title{

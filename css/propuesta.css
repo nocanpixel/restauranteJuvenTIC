@@ -1,0 +1,14 @@
+.img-propuesta {
+    width: 100%;
+}
+
+.texto-propuesta {
+    color: var(--cl-primary-shadow);
+    text-align: justify;
+}
+
+.img-firma {
+    width: 14em;
+    transform: rotate(15deg);
+    padding-left: -20px;
+}
