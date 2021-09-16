@@ -1,0 +1,46 @@
+.card, .card-img-top {
+    border-radius: 0;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.card {
+    background-color: transparent;
+    text-align: justify;
+    border: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 27px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 27px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 27px -4px rgba(0,0,0,0.75);
+}
+
+.cards-content {
+    width: 90%;
+    margin:auto;
+    margin-bottom: 5em;
+}
+
+
+a.card-link-me {
+    text-decoration: none;
+    padding: 0;
+}
+
+.card-title {
+    color: var(--cl-secondary);
+}
+.card-text {
+    color: var(--cl-primary-shadow);
+}
+
+.card-body {
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

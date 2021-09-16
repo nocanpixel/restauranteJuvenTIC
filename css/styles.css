@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 :root {
     --cl-primary: #fff;
-    --cl-primary-shadow: rgb(238, 238, 238);
+    --cl-primary-shadow: rgb(119, 119, 119);
+    --cl-primary-text-shadow: rgb(221, 221, 221);
     --cl-secondary: rgba(24, 24, 24, 0.8);
-    --cl-tertiary: rgb(255, 94, 0);
+    --cl-tertiary: rgb(255, 103, 8);
     --cl-background: rgb(238, 238, 238);
     --ft-logo-font: 'Yanone Kaffeesatz', sans-serif;
     --ft-main: 'Roboto', sans-serif;
@@ -23,8 +24,13 @@ body {
     position: relative;
 }
 
+.highLights {
+    color: var(--cl-tertiary);
+    font-weight: bold;
+}
+
 .main {
-    /*background-color: var(--cl-secondary);*/
+    background-color: var(--cl-primary);
     width: 100%;
     height: auto;
 }
@@ -40,7 +46,7 @@ body {
     background-color: var(--cl-secondary);
     position: fixed;
     z-index: 1;
-    padding: 0;
+    border-radius: 0;
 }
 
 span.logo {
@@ -96,6 +102,7 @@ ul li a.active {
 .list-group-item {
     color: var(--cl-primary);
     background-color: transparent;
+    border: none;
 }
 
 .list-group-item.active {
@@ -107,7 +114,7 @@ ul li a.active {
 
 .list-group-item:hover {
     background-color: transparent;
-    color: var(--cl-primary-shadow);
+    color: var(--cl-primary-text-shadow);
     border-bottom: 4px solid var(--cl-tertiary);
     padding-bottom: 1em;
 }
@@ -173,39 +180,61 @@ h1.primaryText {
     background-color: #d395d0;
     width: 100%;
     height: 100vh;
+    background-image: url('cofeshop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
 /* menu */
 
 .thirdSection {
-    background-color: #FCFCFC;
+    background-color: var(--cl-primary);
     width: 100%;
     text-align: center;
 }
 
-.title {
+.header-menu {
+    height: 17em;
+    margin-bottom: 3em; 
+
+}
+.header-menu h1{
+    padding-top: 5em;
+    font-weight: bold;
+}
+.icon-menu {
+    width: 3em;
+    margin-top: 12em;
+    display: none;
+}
+.menu-borders {
+    width: 35%;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 4em;
+    position: absolute;
+}
+.title{
     font-size: 40px;
     font-family: var(--ft-poppins);
     font-weight: bolder;
     border-bottom: 1px solid #eaeded;
 }
 
-.container-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-bottom: 5px;
-}
-
-.container-cards img {
+.card img{
     width: 100%;
-    height: 200px;
-}
-
-.container-cards h5 {
-    text-align: center;
+    height: 20em;
+    object-fit: cover;
+    object-position: 0px 0px;
 }
 
 .btn-primary {
@@ -221,11 +250,21 @@ h1.primaryText {
     box-shadow: 5px 5px 5px rgb(255, 165, 113);
 }
 
+.modal-description { 
+    text-align: justify;
+    margin-top: 1.5em;
+    color: var(--cl-secondary);
+}
 
 /* end menu */
 
 .fourthSection {
     background-color: #3a2552;
+    width: 100%;
+    height: 100vh;
+}
+
+.fifthSection {
     width: 100%;
     height: 100vh;
 }

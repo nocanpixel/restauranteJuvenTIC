@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.option {
+  background-color: aliceblue;
+  color: #ddccb0;
+}
+
+.form-control {
+  background-color: var(--cl-primary-text-shadow);
+  width: 100%;
+}
+
+.container-contacto {
+  width: 90%;
+  padding-left: 0;
+  margin: auto;
+  background-color: var(--cl-primary);
+  font-size: large;
+
+}
+
+.margin-contacto {
+  width: 90%;
+  margin: auto;
+}
+
+.margin-contacto p {
+  color: var(--cl-primary);
+  font-size: 0.9em;
+  width: 55em;
+}
+
+.header-contacto{
+  background-color: var(--cl-tertiary);
+  height: 17em;
+  margin-bottom: 4em;
+}
+
+.header-contacto h1{
+  font-size: 4em;
+  color: var(--cl-primary);
+  padding-top: 1.5em;
+}
+
+.form-check label{
+  color: var(--cl-secondary);
+  font-size: 0.8em;
+  font-style: oblique;
+}
+
+#div-uno {
+  font-size: 100%;
+}
+
+#div-uno p {
+  color: var(--cl-secondary);
+}
+
+#enviar {
+  float: right;
+  width: 100%;
+  height: 2.8em;
+  border-radius: 0;
+  background-color: var(--cl-tertiary);
+}
+
+#titulo {
+  padding: 30px;
+  margin-right: 0px 50%;
+}
+
+#opciones {
+  background-color: rgba(128, 128, 128, 0.267);
+}
+
+#textarea {
+  height: 100px;
+}
