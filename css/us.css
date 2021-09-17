@@ -154,6 +154,10 @@ hr {
     padding-left: 5.2em;
 }
 
+.carousel-control-next {
+    z-index: 1;
+}
+
 #equipo {
     background-color: var(--cl-tertiary);
 }

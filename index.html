@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- LOCAL STYLES -->
   <link rel="stylesheet" href="css/styles.css">
@@ -22,12 +22,27 @@
   <link rel="stylesheet" href="css/us.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/testimonal.css">
+  <link rel="stylesheet" href="css/scrolltotp.css">
+  <link rel="stylesheet" href="css/menuResponsive.css">
+  <link rel="stylesheet" href="css/socialmedia.css">
   
   
   <title>Document</title>
 </head>
 
 <body>
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+  <button
+        type="button"
+        class="btn btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="white" fill-rule="evenodd" d="M3.47 7.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L9 4.81v7.44a.75.75 0 01-1.5 0V4.81L4.53 7.78a.75.75 0 01-1.06 0z"></path></svg>
+</button>
   <div class="main">
     <nav class="list-group navbars" id="list-example">
       <div class="navContainer">
@@ -38,17 +53,22 @@
             </span>
           </a>
           <ul class="menuNav">
-            <li><a href="#list-item-1" style="text-decoration: none;"
+            <li class="nav-item"><a href="#list-item-1" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Inicio</a></li>
-            <li><a href="#list-item-2" style="text-decoration: none;"
+            <li class="nav-item"><a href="#list-item-2" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Nosotros</a></li>
-            <li><a href="#list-item-3" style="text-decoration: none;"
+            <li class="nav-item"><a href="#list-item-3" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Menu</a></li>
-            <li><a href="#list-item-4" style="text-decoration: none;"
+            <li class="nav-item"><a href="#list-item-4" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Servicios</a></li>
-            <li><a href="#list-item-5" style="text-decoration: none;"
+            <li class="nav-item"><a href="#list-item-5" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Contacto</a></li>
           </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         </div>
       </div>
     </nav>
@@ -408,8 +428,89 @@
 
         </div>
       </div>
-      <div class="fourthSection" id="list-item-4">
-        <h1 class="example">SECTION 4</h1>
+      <div class="fourthSection " id="list-item-4">
+        <h1 class="example servi">Servicios</h1>
+       
+            <div class=" father  d-flex flex-wrap justify-content-center flex-grow-5">
+
+
+              <div class="services card">
+                <div class="card-header titles">
+                  Celebraciones de cumpleaños
+                </div>
+                <img src="imagenes/cumple.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+    
+              <div class="services card">
+                <div class="card-header titles">
+                  Aniversarios
+                </div>
+                <img src="imagenes/aniversario.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+    
+              <div class="services card">
+                <div class="card-header titles">
+                  Fiestas infantiles
+                </div>
+                <img src="imagenes/fiesta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+    
+              <div class="card  services">
+                <div class="card-header titles">
+                  Declaraciones o propuestas
+                </div>
+                <img src="imagenes/declaracion.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+    
+              <div class="card  services">
+                <div class="card-header titles">
+                  Despedidas
+                </div>
+                <img src="imagenes/despedida.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+    
+              <div class="card  services">
+                <div class="card-header titles">
+                  Cena con amigos
+                </div>
+                <img src="imagenes/cena-amigos.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+
+
+            </div>
+            
+            <a href="#list-item-5" class="btn m-5">Contactar</a>
+      
       </div>
 
       <div class="fifthSection" id="list-item-5">
