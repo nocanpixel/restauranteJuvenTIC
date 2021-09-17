@@ -181,8 +181,6 @@ h1.primaryText {
 .secondSection {
     background-color: white;
     width: 100%;
-    height: 100vh;
-    text-align: center;
 
 }
 
@@ -194,6 +192,7 @@ h1.primaryText {
 .header-nosotros {
     height: 17em;
     margin-bottom: 4em;
+    text-align: center;
 }
 .header-nosotros h1{
     font-size: 4em;
@@ -318,3 +317,4 @@ h1.primaryText {
 .carousel-indicators .active {
     background-color: var(--cl-tertiary);
 }
+

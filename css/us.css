@@ -1,0 +1,138 @@
+/* --------nosotros---------- */
+
+
+/* .logo_nh {
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.text_nav {
+    font-weight: bolder;
+}
+
+
+#equipo {
+    background-color: rgb(238, 238, 238);
+    
+}
+
+.img_ppal {
+    padding-top: 3rem;
+}
+
+.text_resena{
+    margin-left: 20px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 1em;
+    
+}
+
+.pt-5 {
+    font-weight: bold;
+}
+
+
+hr {
+border: 2px solid #646464;
+border-radius: 300px ;
+height: 5px;
+text-align: center;
+}
+
+
+.img-thumbnail__avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: #646464;
+    border-width: 7px;
+    border-style: solid;
+}
+
+
+#footer {
+    background-color: rgb(255, 94, 0);
+}
+
+.navbar-bran {
+    text-decoration: none;
+}
+
+.list{
+    margin-right: 10%;
+    margin-top: 1rem;
+}
+.map {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.footer_contenido {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    justify-content: space-between
+}
+
+.carousel-item{
+    margin-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 5rem;
+}
+
+.text-center{
+    padding-left: 10rem;
+}
+.carousel-imagen {
+    margin-top: 4rem;
+    margin-left: 4rem;
+} */
+
+#intro {
+    padding-top: 5em;
+}
+
+.text_resena {
+    color: var(--cl-primary-shadow);
+}
+
+.carousel-itm {
+    margin-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 5rem;
+}
+
+.img-thumbnail__avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border-color: #646464;
+    border-width: 7px;
+    border-style: solid;
+}
+
+.carousel-all {
+    width: 60%;
+    margin: auto;
+}
+
+.text-car {
+    margin-top: 3em;
+    color: var(--cl-primary-shadow);
+    font-weight: 300;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.col-8{
+    padding-left: 5.2em;
+}
+
+#equipo {
+    background-color: rgb(233, 233, 233);
+}
