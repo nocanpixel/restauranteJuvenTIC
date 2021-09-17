@@ -29,8 +29,28 @@ footer {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    margin-right: 1.2em;
   }
 
   .gmap_canvas {
       padding-left: 0.2em;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #ft1 img, .gmap_canvas{
+        display: none;
+    }
+    #ft2{
+        width: 100%;
+    }
+    .mon1{
+        display: none;
+    }
+    .mon2{
+        width: 100%;
+    }
+    .mon3{
+        display: none;
+    }
   }

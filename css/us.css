@@ -136,3 +136,14 @@ text-align: center;
 #equipo {
     background-color: rgb(233, 233, 233);
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .text-car {
+        display: none;
+    }
+    .carousel-itm {
+        padding-left: 0;
+    }
+    
+  }
