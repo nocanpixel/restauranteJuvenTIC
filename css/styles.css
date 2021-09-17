@@ -25,6 +25,7 @@ body {
     margin: 0;
     font-family: var(--ft-main);
     position: relative;
+    overflow-x: hidden;
 }
 
 .highLights {
@@ -129,7 +130,123 @@ ul li a.active {
     background-position: center;
     background-size: 120em 100%; */
     width: 100%;
-    height: 100vh;
+}
+
+.firstInicio {
+    margin: auto;
+    width: 90%;
+}
+
+.secondInicio {
+    margin: auto;
+    margin-top: 10em;
+    background-color: var(--cl-tertiary);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.containerInicio{
+    text-align: center;
+}
+
+.menu2{
+    width: 20em;
+    border: 4px solid white;
+    margin-top: 20px;
+}
+
+#consultarMenu{
+    width: 20em;
+    margin-top: 1.5em;
+    background-color: var(--cl-primary);
+    color: var(--cl-tertiary);
+}
+
+.commend {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.commendText {
+    font-weight: 600;
+    color: var(--cl-primary);
+    text-align: justify;
+    font-size: 3rem;
+}
+
+.commendP {
+    color: var(--cl-primary);
+    text-align: justify;
+    font-weight: 300;
+}
+
+.tercerInicio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("cofeshop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.containerSecond{
+    width: 90%;
+    margin: auto;
+    color: var(--cl-primary)
+}
+
+
+.eventTitle{
+    font-weight: bold;
+}
+.eventP{
+    font-weight: 300;
+}
+
+.img-col {
+    margin-top: 20px;
+}
+
+.eventImg1,.eventImg2,.eventImg3,.eventImg4 {
+    width: 7.5em;
+    margin-top: 5em;
+}
+
+.eventImg2 {
+    width: 7.8em;
+}
+
+.eventImg3 {
+    margin-top: 7em;
+    width: 13em;
+}
+
+.eventImg4 {
+    width: 10.8em;
+    margin-top: 6.2em;
+}
+
+.eventPlot {
+    text-align: center;
+}
+
+.eventT {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-top: 2em;
+}
+.eventP{
+    margin-top: 1em;
+    font-weight: 330;
+}
+.iconPlus {
+    width: 3em;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    margin-top: 3em;
+    cursor: pointer;
 }
 
 .d-block{
@@ -184,14 +301,9 @@ h1.primaryText {
 
 }
 
-.secondSectionContainer {
-    width: 90%;
-    margin: auto;
-}
-
 .header-nosotros {
     height: 17em;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
     text-align: center;
 }
 .header-nosotros h1{
@@ -318,3 +430,13 @@ h1.primaryText {
     background-color: var(--cl-tertiary);
 }
 
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .menuNav{
+        display: none;
+    }
+
+
+    
+  }

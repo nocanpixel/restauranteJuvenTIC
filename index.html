@@ -10,6 +10,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
 
   <!-- LOCAL STYLES -->
   <link rel="stylesheet" href="css/styles.css">
@@ -18,6 +21,8 @@
   <link rel="stylesheet" href="css/propuesta.css">
   <link rel="stylesheet" href="css/us.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/testimonal.css">
+  
   
   <title>Document</title>
 </head>
@@ -32,7 +37,7 @@
               sal<span class="and">&</span>Salsa
             </span>
           </a>
-          <ul>
+          <ul class="menuNav">
             <li><a href="#list-item-1" style="text-decoration: none;"
                 class="list-group-item list-group-item-action">Inicio</a></li>
             <li><a href="#list-item-2" style="text-decoration: none;"
@@ -62,7 +67,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img loading="lazy" class="d-block" src="public/foto2@2x.png" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <img loading="lazy" src="public/logo@2x.png" alt="sal&Salsa logo" class="logoSal">
                   <h1 class="primaryText">
                     Sabores que <span class="bigS">exaltan</span> tus sentidos
@@ -71,7 +76,7 @@
               </div>
               <div class="carousel-item">
                 <img loading="lazy" class="d-block" src="public/foto1@2x.png" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <img loading="lazy" src="public/eventos.png" alt="" class="eventos">
                   <h1 class="primaryText">
                     Organizamos tu evento !
@@ -82,7 +87,7 @@
               </div>
               <div class="carousel-item">
                 <img loading="lazy" class="d-block mx-auto" src="public/foto5@2x.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <img loading="lazy" src="public/birthday.png" alt="" class="birthday">
                   <h1 class="primaryText">
                     Estás cumpliendo años?
@@ -107,10 +112,10 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <div class="secondSection" id="list-item-2">
-        <div class="secondSectionContainer">
+
+        <!-- BEGININ -->
+        <div class="firstInicio">
           <div class="header-nosotros">
             <h1>Nuestra propuesta</h1>
             <p>Lorem ipsum dolor sit sectetur adipisicing elit. Veritatis mollitia impedit libero alias odio.</p>
@@ -130,6 +135,110 @@
               <img class="img-firma" src="public/firma.png" alt="">
             </div>
           </div>
+        </div>
+        <div class="secondInicio">
+          <div class="containerInicio container">
+            <div class="row-inicio row justify-content-md-center">
+              <div class="col-sm">
+                <h1 class="commendText">Los recomendados del chef</h1>
+                <p class="commendP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci unde assumenda in odio facilis, distinctio autem accusantium libero quas consequatur commodi.</p>
+                <div class="row row-cols-2">
+                  <div class="img-col col">
+                    <img class="commend" src="public/menu5@2x.png" alt="">
+                  </div>
+                  <div class="img-col col">
+                    <img class="commend" src="public/menu3@2x.png" alt="">
+                  </div>
+                  <div class="img-col col">
+                    <img class="commend" src="public/menu8.jpg" alt="">
+                  </div>
+                  <div class="img-col col">
+                    <img class="commend" src="public/menu2@2x.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <img src="public/menu@2x.png" alt="" class="menu2">
+                <a href="#list-item-3" class="btn btn-primary" id="consultarMenu" >Consultar el menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tercerInicio">
+          <div class="containerSecond">
+            <h1 class="eventTitle">
+              Organizamos tus eventos
+            </h1>
+            <p class="eventP">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis obcaecati, magnam voluptates illum itaque.
+            </p>
+
+            <div class="eventPlot row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <img class="eventImg1" src="public/icono1@2x.png" alt="">
+                <h2 class="eventT">Fiestas tématicas</h2>
+                <p class="eventP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae saepe reiciendis adipisci temporibus odit veniam quam aperiam, cupiditate eaque perferendis.</p>
+                <img src="public/add.png" alt="" class="iconPlus">
+              </div>
+              <div class="col">
+                <img class="eventImg2" src="public/icono2@2x.png" alt="">
+                <h2 class="eventT">Matrimonios</h2>
+                <p class="eventP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae saepe reiciendis adipisci temporibus odit veniam quam aperiam, cupiditate eaque perferendis.</p>
+                <img src="public/add.png" alt="" class="iconPlus">
+              </div>
+              <div class="col">
+                <img class="eventImg3" src="public/icono3@2x.png" alt="">
+                <h2 class="eventT">Cenas empresariales</h2>
+                <p class="eventP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae saepe reiciendis adipisci temporibus odit veniam quam aperiam, cupiditate eaque perferendis.</p>
+                <img src="public/add.png" alt="" class="iconPlus">
+              </div>
+              <div class="col">
+                <img class="eventImg4" src="public/icono4@2x.png" alt="">
+                <h2 class="eventT">Cumpleaños</h2>
+                <p class="eventP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae saepe reiciendis adipisci temporibus odit veniam quam aperiam, cupiditate eaque perferendis.</p>
+                <img src="public/add.png" alt="" class="iconPlus">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cuartoInicio">
+          <div class="demo">
+            <div class="container">
+                <div class="row">
+                    <div class="sliderClen col-md-offset-2 col-md-8 ">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                                </p>
+                                <h3 class="title">williamson</h3>
+                                <span class="post">Cliente</span>
+                            </div>
+         
+                            <div class="testimonial">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                                </p>
+                                <h3 class="title">Kristina</h3>
+                                <span class="post">Cliente</span>
+                            </div>
+         
+                            <div class="testimonial">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                                </p>
+                                <h3 class="title">Miranda Joy</h3>
+                                <span class="post">Cliente</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="secondSection" id="list-item-2">
               <!-------------sección reseña----------->
 
     <section id="intro">
@@ -216,7 +325,7 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div> -->
-      <div class="carousel-inner col-sm-12 " style="margin-top: 5em;">
+      <div class="carousel-inner col-sm-12 ">
         <div class="carousel-itm carousel-item active" data-bs-interval="10000">
           
           <div class="carousel-all row row-cols-2">
@@ -257,7 +366,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-        </div>
+
       </div>
       <div class="thirdSection" id="list-item-3">
         <div class="header-menu">
@@ -416,9 +525,13 @@
 
 
   <!-- BOOTSTRAP CDNJS -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    
   <script src="sans.js"></script>
   <script type="text/javascript" src="js/menu.json"></script>
   <script type="text/javascript" src="js/menu.js"></script>
