@@ -14,12 +14,6 @@
     background-color: var(--cl-primary);
 }
 
-.menuNav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 @media only screen and (max-width: 768px) {
     .menuNav {
         position: fixed;

@@ -1,7 +1,10 @@
 footer {
     width: 100%;
     background-color: var(--cl-secondary);
-    margin-top: 3em;
+  }
+
+  .footer-content {
+      margin-top: 3em;
   }
 
   
