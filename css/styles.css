@@ -464,8 +464,10 @@ font-size: 15px;
     background-color: var(--cl-tertiary);
     color: var(--cl-primary);
 }
+
 .fourthSection  a:hover { 
     box-shadow: 0px 0px 15px #FF6708;
+    color: var(--cl-primary);
 }
 .fourthSection .services .card-body { 
    text-align: justify;
@@ -481,9 +483,6 @@ font-weight: bold;
 font-size: 15px;
 
  }
- .fourthSection  a { 
-    border-radius: 16px;
-}
 .fourthSection  a:hover { 
     box-shadow:0px 0px 15px #FF6708;
    
