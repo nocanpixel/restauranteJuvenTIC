@@ -10,7 +10,7 @@ const toDom =()=>{
       goFun(start,limit)
       function goFun(start,limit){
         for(let i=start;i<limit;i++){
-          console.log(data['dataDishes'][i].imgDish)
+          
           contentCard.innerHTML+=`
             <div class="col-8">
             <div class="card mb-3" >

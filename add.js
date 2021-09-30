@@ -13,6 +13,8 @@ $.getJSON("dataCards.json", (data)=>{
                 });
                 if(value.value != '0'){
                     localStorage.setItem("myOrder", JSON.stringify(elementsSaved));
+                    document.querySelector('.elementAdded').innerHTML = val.nameDish;
+                    $('.toast').toast('show');
                     value.value = 0;
                 }
 
