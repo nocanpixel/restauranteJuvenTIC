@@ -1,0 +1,66 @@
+.container h1 {
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    color: var(--cl-tertiary);
+    font-weight: bolder;
+    font-size: 4em;
+}
+/* .card{
+    color: rgb(27, 27, 27);
+}
+.img-fluid{
+    width: 12em;
+    height: 16em;
+    object-fit: cover;
+
+} */
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.col-4{
+    margin: auto;
+    text-align: center;
+}
+#valueInput {
+    width: 2em;
+    text-align: center;
+}
+#allButtons {
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding: 3px;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.paginationContainer{
+    text-align: center;
+    margin-bottom: 2em;
+}
+#preeValue{
+    margin-right: 10px;
+}
+
+#preeValue,#nextValue{
+    color: var(--cl-primary);
+    background: var(--cl-tertiary);
+    border-radius: 0;
+}
+
+#addCar {
+    background-color: var(--cl-tertiary);
+    color: white;
+    border-radius: 0;
+    width: 12em;
+    padding: 0.9em;
+}
+
+
+.cardTitle {
+    color: var(--cl-tertiary);
+}

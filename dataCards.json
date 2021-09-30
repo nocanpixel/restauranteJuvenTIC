@@ -1,0 +1,42 @@
+{"dataDishes": [{
+    "nameDish": "Pollo frito",
+    "priceDish": "50000",
+    "imgDish": "public/menu1@2x.png",
+    "value": "value1",
+    "incrementButton": "increment1",
+    "decrementButton": "decrement1",
+    "addCart": "addCart1",
+    "amount": 0
+},
+{
+    "nameDish": "Bandeja paisa",
+    "priceDish": "45000",
+    "imgDish": "public/menu2@2x.png",
+    "value": "value2",
+    "incrementButton": "increment2",
+    "decrementButton": "decrement2",
+    "addCart": "addCart2",
+    "amount": 0
+},
+{
+    "nameDish": "Huevo perico",
+    "priceDish": "10000",
+    "imgDish": "public/menu3@2x.png",
+    "value": "value3",
+    "incrementButton": "increment3",
+    "decrementButton": "decrement3",
+    "addCart": "addCart3",
+    "amount": 0
+},
+{
+    "nameDish": "Lasagna de pollo",
+    "priceDish": "30000",
+    "imgDish": "public/menu4@2x.png",
+    "value": "value4",
+    "incrementButton": "increment4",
+    "decrementButton": "decrement4",
+    "addCart": "addCart4",
+    "amount": 0
+}
+]
+}
