@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title {
+    padding-left: 50px;
+    color: black;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-warning{
+   background-color:  rgb(255, 103, 8);
+   color: white;
+}
