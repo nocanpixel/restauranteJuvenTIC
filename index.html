@@ -495,12 +495,7 @@
                         </div>
                     </div>
 
-
                 </div>
-
-                <button class="btn btn-light mb-4 fixed-bottom btn-reserva" data-bs-toggle="modal" data-bs-target="#reservaModal">
-              Reserva en linea
-                </button>
 
             </div>
 
@@ -581,8 +576,8 @@
                                     <img class="logo-footer" src="./public/logo@2x.png" alt="Logo" srcset="">
                                 </div>
                             </div>
-                            <div class="mon2 col">
-                                <div id="ft2">
+                            <div class="mon2 col ">
+                                <div id="ft2" >
                                     <a href="mapa.html">MAPA DEL SITIO</a>
                                     <a href="#4">CONTACTANOS</a>
                                     <a href="#3">RESERVAS</a>
@@ -624,6 +619,13 @@
             </div>
 
 
+             <!---------boton reserva---------------------->
+
+             <button class="btn btn-light mb-4 fixed-bottom btn-reserva" data-bs-toggle="modal" data-bs-target="#reservaModal">
+                Reserva en linea
+                  </button>
+
+
             <!-- Modal -->
             <div class="modal fade" id="reservaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog  ">
@@ -655,8 +657,8 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="inputTelefono" class="form-label">Número de Teléfono</label>
-                                        <input type="number" name="telefono" class="form-control" placeholder="Número de teléfono" min="1" max="15" required/>
+                                        <label for="inputTelefono" class="form-label">Número de Celular (10 digitos)</label>
+                                        <input type="tel" name="telefono" class="form-control" placeholder="Número de Celular"   pattern="[0-9]{10}"  required/>
                                         <div class="invalid-feedback">Completa el campo</div>
                                     </div>
 
@@ -708,7 +710,7 @@
 
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                                        <button type="submit"  class="btn btn-warning">Registrar</button>
+                                        <button type="submit"  class="btn btn-warning" onclick="enviarCorreo()">Registrar</button>
                                     </div>
 
                                 </div>
@@ -724,12 +726,13 @@
         <!-- BOOTSTRAP CDNJS -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
         <script src="sans.js"></script>
         <script type="text/javascript" src="js/menu.json"></script>
         <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/envio_correo.js"></script>
 </body>
 
 </html>
