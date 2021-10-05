@@ -390,9 +390,11 @@
                     <img class="menu-borders-2" src="public/borders.png" alt="">
                 </div>
 
+
+
+                 <!-- Modal -->
                 <div id="modal">
-                    <!-- Modal -->
-                    <!-- Modal -->
+
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -423,7 +425,7 @@
 
                     <div class="services card">
                         <div class="card-header titles">
-                            Celebraciones de cumpleaños
+                            Cumpleaños
                         </div>
                         <img src="imagenes/cumple.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -496,9 +498,9 @@
 
                 </div>
 
-                <button class="btn m-5 btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal">
+                <button class="btn btn-light mb-4 fixed-bottom btn-reserva" data-bs-toggle="modal" data-bs-target="#reservaModal">
               Reserva en linea
-            </button>
+                </button>
 
             </div>
 
@@ -526,11 +528,13 @@
 
                         <div class="col-sm" id="div-dos">
                             <form action="" method="post">
+
+
                                 <!--Selector de servicios-->
                                 <div class="form-group">
                                     <select class="form-control" id="exampleFormControlSelect1">
                     <option>Seleccione el servicio</option>
-                    <option>Celebracion de cumpleaños</option>
+                    <option>Celebración de Cumpleaños</option>
                     <option>Fiestas infantiles</option>
                     <option>Despedidas</option>
                     <option>Aniversarios</option>
@@ -622,78 +626,93 @@
 
             <!-- Modal -->
             <div class="modal fade" id="reservaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog ">
+                <div class="modal-dialog  ">
                     <div class="modal-content">
 
                         <div class="modal-body">
+                            <form >
+                                
+                                <h2 class="title">Formulario de Registro</h2>
+                                <br>
 
-                            <h2 class="title">Formulario de Registro</h2>
-                            <br>
-
-                            <div class="px-4">
-                                <div class="mb-3">
-                                    <label for="inputNombre" class="form-label">Nombre</label>
-                                    <input type="text" name="nombre" class="form-control" id="inputNombre" placeholder="Escriba su nombre" required/>
-                                    <div class="invalid-feedback">Completa el campo</div>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="inputApellido" class="form-label">Apellido</label>
-                                    <input type="text" name="apellido" class="form-control" id="inputApellido" placeholder="Escriba su apellido" required/>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="inputEmail4" class="form-label">Correo Electrónico</label>
-                                    <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="nombre@ejemplo.com" required/>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="inputTelefono" class="form-label">Número de Teléfono</label>
-                                    <input type="number" name="telefono" class="form-control" placeholder="Número de teléfono" required/>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="inputNumeroPersonas" class="form-label">Cantidad de Personas</label>
-                                    <input type="number" name="numeroPersonas" class="form-control" id="inputNumeroPersonas" placeholder="Cantidad de personas" required/>
-                                </div>
-
-                                <!------Seleccionar el servicio----->
-                                <div class="mb-3">
-                                    <label for="inputState" class="form-label">Servicios</label>
-                                    <select id="inputState" class="form-select" required>
-                                        <option selected>Seleccione el servicio</option>
-                                        <option>Celebracion de cumpleaños</option>
-                                        <option>Fiestas infantiles</option>
-                                        <option>Despedidas</option>
-                                        <option>Aniversarios</option>
-                                        <option>Declaraciones o propuestas</option>
-                                        <option>Cena con amigos</option>
-                                    </select>
-                                </div>
-
-                                <!---------Fecha y Hora--------->
-                                <div class="row mb-3">
-                                    <div class="col-6">
-                                        <label for="inputFechaReservacion" class="form-label">Fecha</label>
-                                        <input id="inputFechaReservacion" name="fecha" class="form-control" type="date" required/>
+                                <div class="px-4 scroll" >
+                                    <div class="mb-3">
+                                        <label for="inputNombre" class="form-label">Nombre</label>
+                                        <input type="text" name="nombre" class="form-control" id="inputNombre" placeholder="Escriba su nombre" required/>
+                                        <div class="invalid-feedback">Completa el campo</div>
                                     </div>
-                                    <div class="col-6">
-                                        <label for="inputHoraReservacion" class="form-label">Hora</label>
-                                        <input id="inputHoraReservacion" name="hora" class="form-control" type="time" required/>
+
+                                    <div class="mb-3">
+                                        <label for="inputApellido" class="form-label">Apellido</label>
+                                        <input type="text" name="apellido" class="form-control" id="inputApellido" placeholder="Escriba su apellido" required/>
+                                        <div class="invalid-feedback">Completa el campo</div>
                                     </div>
-                                </div>
 
-                                <!------indicaciones especiales-------->
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Indicaciones</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Indicaciones especiales" rows="3"></textarea>
-                                </div>
+                                    <div class="mb-3">
+                                        <label for="inputEmail4" class="form-label">Correo Electrónico</label>
+                                        <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="nombre@ejemplo.com" required/>
+                                        <div class="invalid-feedback">Completa el campo</div>
+                                    </div>
 
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-warning">Registrar</button>
+                                    <div class="mb-3">
+                                        <label for="inputTelefono" class="form-label">Número de Teléfono</label>
+                                        <input type="number" name="telefono" class="form-control" placeholder="Número de teléfono" min="1" max="15" required/>
+                                        <div class="invalid-feedback">Completa el campo</div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="inputNumeroPersonas" class="form-label">Cantidad de Personas</label>
+                                        <input type="number" name="numeroPersonas" class="form-control" id="inputNumeroPersonas" placeholder="Cantidad de personas" min="1" max="100" required/>
+                                    </div>
+
+                                    <!------Seleccionar el servicio----->
+                                    <div class="mb-3">
+                                        <label for="inputState" class="form-label">Servicios</label>
+                                        <select id="inputState" class="form-select" required>
+                                            <option selected>Seleccione el servicio</option>
+                                            <option>Cumpleaños</option>
+                                            <option>Fiestas infantiles</option>
+                                            <option>Despedidas</option>
+                                            <option>Aniversarios</option>
+                                            <option>Declaraciones o propuestas</option>
+                                            <option>Cena con amigos</option>
+                                        </select>
+                                    </div>
+
+                                    <!---------Fecha y Hora--------->
+                                    <div class="row mb-3">
+                                        <div class="col-6">
+                                            <label for="inputFechaReservacion" class="form-label">Fecha</label>
+                                            <input id="inputFechaReservacion" name="fecha" class="form-control" type="date" min="2021-11-01" max="2023-12-31" required/>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="inputHoraReservacion" class="form-label">Hora</label>
+                                            <input id="inputHoraReservacion" name="hora" class="form-control" type="time" required/>
+                                        </div>
+                                    </div>
+
+
+                                    <!---------Terminos y condiciones------------>
+                                    <div>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" required />
+                                    <label class="form-check-label" for="defaultCheck1">
+                                     Acepto Términos y Condiciones.
+                                    </label> 
+                                    </div>
+
+                                    <!------indicaciones especiales-------->
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Indicaciones especiales" rows="3"></textarea>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="submit"  class="btn btn-warning">Registrar</button>
+                                    </div>
+
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -17,3 +17,20 @@
    background-color:  rgb(255, 103, 8);
    color: white;
 }
+
+
+
+.btn-reserva {
+    background-color:  rgb(255, 103, 8);
+    position: fixed;
+    margin-right: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    background: rgb(255, 103, 8);
+    border-radius: 6px;
+    color: white;
+}
+.scroll {
+    height: 80vh; 
+    overflow-y: scroll;
+}
