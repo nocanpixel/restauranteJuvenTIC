@@ -1,15 +1,21 @@
 $.getJSON("dataCards.json", (data)=>{
     $.each(data['dataDishes'], (key, val)=>{
-        const value = document.querySelector(`.${val.value}`);
         let getStorage = JSON.parse(localStorage.getItem("myOrder"));
+        const value = document.querySelector(`.${val.value}`);
         localStorage.length == 0 ? elementsSaved = [] : elementsSaved = getStorage;
         $(`.${val.addCart}`).on('click', ()=>{
                 value.value == '0'
                 ? null
                 : elementsSaved.push({
+                    id:val.id,
                     nameDish:val.nameDish,
                     priceDish:val.priceDish,
-                    amount:value.value
+                    amount:value.value,
+                    imgDish:val.imgDish,
+                    incrementButton:val.incrementButton,
+                    decrementButton:val.decrementButton,
+                    value:val.value,
+                    addCar:val.addCart
                 });
                 if(value.value != '0'){
                     localStorage.setItem("myOrder", JSON.stringify(elementsSaved));

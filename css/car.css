@@ -1,0 +1,28 @@
+.totalContent {
+    padding: 2em;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 2em;
+}
+
+.total{
+    font-size: 2em;
+    float: right;
+    font-weight: 800;
+}
+.totalText{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#reservar {
+    background-color: var(--cl-tertiary);
+    color: white;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.form{
+    margin: auto;
+    text-align: center;
+}

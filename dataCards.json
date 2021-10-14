@@ -1,4 +1,6 @@
 {"dataDishes": [{
+    "id":"id1",
+    "card":1,
     "nameDish": "Pollo frito",
     "priceDish": "50000",
     "imgDish": "public/menu1@2x.png",
@@ -9,6 +11,8 @@
     "amount": 0
 },
 {
+    "id":"id2",
+    "cardId":2,
     "nameDish": "Bandeja paisa",
     "priceDish": "45000",
     "imgDish": "public/menu2@2x.png",
@@ -19,6 +23,8 @@
     "amount": 0
 },
 {
+    "id":"id3",
+    "card":3,
     "nameDish": "Huevo perico",
     "priceDish": "10000",
     "imgDish": "public/menu3@2x.png",
@@ -29,6 +35,8 @@
     "amount": 0
 },
 {
+    "id":"id4",
+    "card":4,
     "nameDish": "Lasagna de pollo",
     "priceDish": "30000",
     "imgDish": "public/menu4@2x.png",

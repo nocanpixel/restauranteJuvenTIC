@@ -5,7 +5,7 @@ const toDom =()=>{
     $.getJSON("dataCards.json", (data)=>{
       let maxSize = data['dataDishes'].length;
       let start = 0;
-      let elementsPerPage = 3;
+      let elementsPerPage = 4;
       let limit = elementsPerPage;
       goFun(start,limit)
       function goFun(start,limit){
